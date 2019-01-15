@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Event Management</title>
+    <title>Event Management-Home</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -21,18 +21,18 @@
             </tr>
             <tr>
                 <td>
-                    <input type="text" name="lastName" value="" placeholder="Last Name" />
+                    <input type="email" name="email" value="" placeholder="Email" required />
                 </td>
                 <td>Gender
                     <input type="radio" name="gender" value="Male" />Male
                     <input type="radio" name="gender" value="Female" />Female
                 </td>
                 <td>
-                    <input type="text" name="telePhone" value="" placeholder="Phone Number" />
+                    <input type="number" name="telePhone" value="" placeholder="Phone Number" required />
                 </td>
             </tr>
             <tr>
-                <td colspan="3"><textarea cols="85" rows="5"></textarea>
+                <td colspan="3"><textarea cols="75" rows="5"></textarea>
                 </td>
             </tr>
         </table>
@@ -41,28 +41,28 @@
         <table>
             <tr>
                 <td>
-                    <input type="text" name="eventName" value="" placeholder="Event Name" style="width: 330px" />
+                    <input type="text" name="eventName" value="" class="event" placeholder="Event Name" required/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" name="eventPlace" value="" placeholder="Event Place" style="width: 330px" />
+                    <input type="text" name="eventPlace" value="" class="event" placeholder="Event Place" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" name="eventCost" value="" placeholder="Event Cost (in $)" />
+                    <input type="number" name="eventCost" value="" placeholder="Event Cost (in $)" />
                 </td>
                 <td>
-                    <input type="text" name="memberNumber" value="" placeholder="Members(Max 10)" />
+                    <input type="number" name="memberNumber" value="" placeholder="Members(Max 10)" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" name="eventTime" value="" placeholder="Event Time" />
+                    <input type="time" name="eventTime" value="" placeholder="Event Time" />
                 </td>
                 <td>
-                    <input type="text" name="eventDate" value="" placeholder="Event Date" />
+                    <input type="date" name="eventDate" value="" placeholder="Event Date" />
                 </td>
             </tr>
             <tr>
