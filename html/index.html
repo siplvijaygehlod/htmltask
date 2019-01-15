@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Management</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="header">Event Management</div>
+    <form method="post" action="action.html">
+        <!--Basic Info Table -->
+        <table>
+            <tr>
+                <td>
+                    <input type="text" name="firstName" value="" placeholder="First Name" required="required" />
+                </td>
+                <td>
+                    <input type="text" name="lastName" value="" placeholder="Last Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="lastName" value="" placeholder="Last Name" />
+                </td>
+                <td>Gender
+                    <input type="radio" name="gender" value="Male" />Male
+                    <input type="radio" name="gender" value="Female" />Female
+                </td>
+                <td>
+                    <input type="text" name="telePhone" value="" placeholder="Phone Number" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><textarea cols="85" rows="5"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <!--Event Table--->
+        <table>
+            <tr>
+                <td>
+                    <input type="text" name="eventName" value="" placeholder="Event Name" style="width: 330px" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="eventPlace" value="" placeholder="Event Place" style="width: 330px" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="eventCost" value="" placeholder="Event Cost (in $)" />
+                </td>
+                <td>
+                    <input type="text" name="memberNumber" value="" placeholder="Members(Max 10)" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="eventTime" value="" placeholder="Event Time" />
+                </td>
+                <td>
+                    <input type="text" name="eventDate" value="" placeholder="Event Date" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Food Menu
+                    <ol>
+
+                        <li><input type="checkbox" name="food1" value="Italin">Italin - $20</li>
+                        <li><input type="checkbox" name="food2" value="Chines">Chines - $30</li>
+                        <li><input type="checkbox" name="food3" value="Noodles">Noodles - $10</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" name="bannerImage" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <table class="footer">
+            <tr>
+                <td>
+                    <ul type="disc">
+                        <li>
+                            <a href="#">Term and Condition</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">sitemap</a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <form method="post" action="#">
+                        <input type="text" name="newsLetter" value="" />
+                        <input type="submit" name="submit" value="Subscribe" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
